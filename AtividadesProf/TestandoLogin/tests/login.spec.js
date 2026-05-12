@@ -27,6 +27,3 @@ test('deve fazer login e depois sair', async ({ page }) => {
   // Verifica se voltou para a tela de login
   await expect(page).toHaveURL(/.*login/);
 });
-
-// so pra liberar as alteraçoes
-const alteraçoesLiberada = 1
